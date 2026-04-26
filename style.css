@@ -1,0 +1,23 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: white;
+}
+
+h1 {
+    color: darkblue;
+}
+
+button {
+    margin: 5px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#anggota {
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+}

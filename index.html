@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Profil Kelompok</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="judul">Kelompok Hebat</h1>
+    <button onclick="ubahJudul()">Ubah Nama Kelompok</button>
+    <button onclick="gantiTema()">Ganti Tema</button>
+
+    <h2>Anggota Kelompok</h2>
+    <div id="anggota">
+        <p>Andi</p>
+        <p>Budi</p>
+        <p>Citra</p>
+    </div>
+
+    <h2>Portofolio</h2>
+    <ul id="listKarya">
+        <li>Website HTML</li>
+        <li>Desain Poster</li>
+    </ul>
+
+    <input type="text" id="inputKarya" placeholder="Tambah karya">
+    <button onclick="tambahKarya()">Tambah</button>
+
+    <h2>Pesan Pengunjung</h2>
+    <input type="text" id="pesan" placeholder="Tulis pesan">
+    <button onclick="tambahPesan()">Kirim</button>
+
+    <ul id="listPesan"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
